@@ -5,12 +5,12 @@ Proyecto orientado al desarrollo de un sistema embebido para el reconocimiento y
 # **Bitacoras**
 
 # **Emanuel Arturo Barrantes Rodriguez**
-* **Dia 1**
-    - Este dia hice esto jaja
-* **Dia 2**
-    - Este otro dia hice aquello jiji
-* **Dia 3**
-    - Este dia no hice nada jojo
+### **Dia 1**
+Este dia hice esto jaja
+### **Dia 2**
+Este otro dia hice aquello jiji
+### **Dia 3**
+Este dia no hice nada jojo
 
 # **Joham Gabriel Castrillo Mora**
 ### **Dia 1**
@@ -21,9 +21,9 @@ Este otro dia hice aquello jiji
 Este dia no hice nada jojo
 
 # **Oscar Fernández Zúñiga**
-* **Dia 1**
-    Este dia hice esto jaja
-* **Dia 2**
-    Este otro dia hice aquello jiji
-* **Dia 3**
-    Este dia no hice nada jojo
+### **Dia 1**
+Este dia hice esto jaja
+### **Dia 2**
+Este otro dia hice aquello jiji
+### **Dia 3**
+Este dia no hice nada jojo
