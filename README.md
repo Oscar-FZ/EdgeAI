@@ -1,9 +1,8 @@
 # **EdgeAI**
 Proyecto orientado al desarrollo de un sistema embebido para el reconocimiento y clasificacion de expresiones faciales.
 
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
+A very <span style='color: red;'>long</span> sentence.
 
-- ![#f03c15](https://placehold.it/150/ffffff/ff0000?text=hello) `#f03c15`
 
 # **Bitacoras**
 
