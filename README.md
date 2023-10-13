@@ -2,7 +2,8 @@
 Proyecto orientado al desarrollo de un sistema embebido para el reconocimiento y clasificacion de expresiones faciales.
 
 The background color is `#ffffff` for light mode and `#000000` for dark mode.
-https://placehold.it/150/ffffff/ff0000?text=hello
+
+- ![#f03c15]([https://placehold.co/15x15/f03c15/f03c15.png](https://placehold.it/150/ffffff/ff0000?text=hello)) `#f03c15`
 
 # **Bitacoras**
 
