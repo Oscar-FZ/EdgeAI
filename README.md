@@ -1,6 +1,8 @@
 # **EdgeAI**
 Proyecto orientado al desarrollo de un sistema embebido para el reconocimiento y clasificacion de expresiones faciales.
 
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
+
 # **Bitacoras**
 
 ## **Emanuel Arturo Barrantes Rodriguez**
