@@ -3,7 +3,7 @@ Proyecto orientado al desarrollo de un sistema embebido para el reconocimiento y
 
 The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
-- ![#f03c15]([https://placehold.co/15x15/f03c15/f03c15.png](https://placehold.it/150/ffffff/ff0000?text=hello)) `#f03c15`
+- ![#f03c15](https://placehold.it/150/ffffff/ff0000?text=hello) `#f03c15`
 
 # **Bitacoras**
 
