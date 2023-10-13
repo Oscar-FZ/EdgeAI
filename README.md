@@ -13,11 +13,11 @@ Proyecto orientado al desarrollo de un sistema embebido para el reconocimiento y
     - Este dia no hice nada jojo
 
 # **Joham Gabriel Castrillo Mora**
-# **Dia 1**
+## **Dia 1**
 Este dia hice esto jaja
-# **Dia 2**
+## **Dia 2**
 Este otro dia hice aquello jiji
-# **Dia 3**
+## **Dia 3**
 Este dia no hice nada jojo
 
 # **Oscar Fernández Zúñiga**
