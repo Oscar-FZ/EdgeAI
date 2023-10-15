@@ -21,7 +21,7 @@ Este dia no hice nada jojo
 
 # **Joham Gabriel Mora Castrillo**
 
-### **Fecha: 11/10/2023**
+### **Día 1: 11/10/2023**
 
 #### **Actividades realizadas :**
 1. Se hace la primera reunión del equipo.
