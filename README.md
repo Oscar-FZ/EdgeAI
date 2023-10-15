@@ -28,7 +28,7 @@ Este dia no hice nada jojo
 2. Se reparten los roles.
 3. Se identifican y se distrubulles las primeras tareas, a mi persona le corresponde el punto 5 de la propuesta de diseño.
 #### **Pendientes:**
-* 1.  Agendar otra reunión en los días próximos para evanzar más. 
+1.  Agendar otra reunión en los días próximos para evanzar más. 
 
 
 
