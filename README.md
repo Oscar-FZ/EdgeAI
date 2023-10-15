@@ -25,10 +25,19 @@ Este dia no hice nada jojo
 
 #### **Actividades realizadas :**
 1. Se hace la primera reunión del equipo.
-2. Se reparten los roles.
-3. Se identifican y se distrubulles las primeras tareas, a mi persona le corresponde el punto 5 de la propuesta de diseño.
+2. Se reparten los roles, a mi persona le corresponde ser director de proyecto e investigador.
+3. Se identifican y se asignan las primeras tareas, a mi persona le corresponde el punto 5 de la propuesta de diseño.
 #### **Pendientes:**
 1.  Agendar otra reunión en los días próximos para evanzar más. 
+
+### **Día 2: 14/10/2023**
+
+#### **Actividades realizadas :**
+1. 
+2. 
+3. 
+#### **Pendientes:**
+1.  
 
 
 
