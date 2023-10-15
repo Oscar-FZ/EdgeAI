@@ -19,7 +19,7 @@ Este dia no hice nada jojo
 
 
 
-# **Joham Gabriel Castrillo Mora**
+# **Joham Gabriel Mora Castrillo**
 
 ### **Fecha: 11/10/2023**
 
