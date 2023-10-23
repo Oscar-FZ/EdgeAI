@@ -12,6 +12,7 @@ subprocess.run(["pip3", "install", "opencv-python"])
 subprocess.run(["pip3", "install", "tflite_runtime"])
 
 #########################################################################################################
+import subprocess
 import numpy as np
 import cv2
 import datetime
@@ -31,43 +32,52 @@ emotion_dict = {0: "Enojado", 1: "Disgustado", 2: "Temeroso", 3: "Feliz", 4: "Ne
 cap = cv2.VideoCapture(0)
 Emotions_File = open("emotions_detected.csv", "a")
 
-# Inicializa la variable frame fuera del bloque if
 frame = None
-
-# Inicializa un contador de tiempo para el archivo
 emotion_start_time = time.time()
+show_video = False  # Variable para controlar si se muestra el video
+black_screen = np.zeros((480, 800, 3), dtype=np.uint8)  # Pantalla en negro
 
 while True:
-    ret, frame = cap.read()
-    if not ret:
-        break
-    facecasc = cv2.CascadeClassifier('cascade_frontalface_default.xml')
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    faces = facecasc.detectMultiScale(gray, scaleFactor=1.3, minNeighbors=5)
+    key = cv2.waitKey(1) & 0xFF
+    if key == ord('i'):
+        show_video = True  # Mostrar el video al presionar la tecla 'i'
+    
+    if show_video:
+        ret, frame = cap.read()
+        if not ret:
+            break
+        facecasc = cv2.CascadeClassifier('cascade_frontalface_default.xml')
+        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        faces = facecasc.detectMultiScale(gray, scaleFactor=1.3, minNeighbors=5)
 
-    for (x, y, w, h) in faces:
-        cv2.rectangle(frame, (x, y-50), (x+w, y+h+10), (255, 255, 0), 2)
-        roi_gray = gray[y:y + h, x:x + w]
-        cropped_img = np.expand_dims(np.expand_dims(cv2.resize(roi_gray, (48, 48)), -1), 0)
-        cropped_img = np.array(cropped_img, dtype='f')
-        Interpreter.set_tensor(input_details[0]['index'], cropped_img)
-        Interpreter.invoke()
-        output_data = Interpreter.get_tensor(output_details[0]['index'])
-        maxindex = int(np.argmax(output_data))
-        cv2.putText(frame, emotion_dict[maxindex], (x+20, y-60), cv2.FONT_HERSHEY_SIMPLEX, 1, (200, 0, 0), 2, cv2.LINE_AA)
+        for (x, y, w, h) in faces:
+            cv2.rectangle(frame, (x, y-50), (x+w, y+h+10), (255, 255, 0), 2)
+            roi_gray = gray[y:y + h, x:x + w]
+            cropped_img = np.expand_dims(np.expand_dims(cv2.resize(roi_gray, (48, 48)), -1), 0)
+            cropped_img = np.array(cropped_img, dtype='f')
+            Interpreter.set_tensor(input_details[0]['index'], cropped_img)
+            Interpreter.invoke()
+            output_data = Interpreter.get_tensor(output_details[0]['index'])
+            maxindex = int(np.argmax(output_data))
+            cv2.putText(frame, emotion_dict[maxindex], (x+20, y-60), cv2.FONT_HERSHEY_SIMPLEX, 1, (200, 0, 0), 2, cv2.LINE_AA)
 
-        if time.time() - emotion_start_time >= 1.0:
-            emocion = emotion_dict[maxindex]
-            tc = datetime.datetime.now()
-            Emotions_File.write(str((emocion)) + ";" + str(tc) + "\n")
-            emotion_start_time = time.time()
+            if time.time() - emotion_start_time >= 1.0:
+                emocion = emotion_dict[maxindex]
+                tc = datetime.datetime.now()
+                Emotions_File.write(str((emocion)) + ";" + str(tc) + "\n")
+                emotion_start_time = time.time()
 
-    if frame is not None:  # Comprueba si frame no está vacío antes de redimensionarlo
-        cv2.imshow('Video', cv2.resize(frame, (800, 480), interpolation=cv2.INTER_CUBIC))
+        if frame is not None:
+            cv2.putText(frame, "Presione x para salir", (20, 50), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 255), 2, cv2.LINE_AA)
+            cv2.imshow('Video', cv2.resize(frame, (800, 480), interpolation=cv2.INTER_CUBIC))
+    else:
+        cv2.putText(black_screen, "Presione i para iniciar", (20, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 2, cv2.LINE_AA)
+        cv2.imshow('Video', black_screen)
 
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if key == ord('x'):
         break
 
 Emotions_File.close()
 cap.release()
 cv2.destroyAllWindows()
+
