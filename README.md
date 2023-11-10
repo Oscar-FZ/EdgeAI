@@ -10,17 +10,19 @@ ________________________________________________________________________________
 ### **Día 1: 11/10/2023**
 
 #### **Actividades realizadas :**
-1. Se hace la primera reunión del equipo.
-2. Se reparten los roles, a mi persona le corresponde ser director de proyecto e investigador.
-3. Se identifican y se asignan las primeras tareas, a mi persona le corresponde el punto 5 de la propuesta de diseño.
+1. Se realizo la primera reunión del equipo.
+2. Se reparten los roles del equipo donde se me asigno se auditor e investigador.
+3. Se identifican y se asignan las primeras tareas, a mi persona le corresponde el punto 4 de la propuesta de diseño.
 #### **Pendientes:**
-1.  Agendar otra reunión en los días próximos para evanzar más. 
+1.  Agendar otra reunión en los días próximos para evanzar más.
+2.  Investigar los puntos 8 y 9
 _____________________________________________________________________________________________________________________
 
-### **Día 2: 14/10/2023**
+### **Día 2: 12/10/2023**
 
 #### **Actividades realizadas :**
-1. Se trabaja individualmente en los puntos que me tocó.
+1. Se estudio los requerimientos del sistema 
+2. Se trabajo en los graficos del punto 4.
 #### **Pendientes:**
 1.  Llamar a reunión grupal para unir avances y trabajar en en conjutno en los puntos faltantes. 
 
@@ -29,7 +31,7 @@ ________________________________________________________________________________
 ### **Día 3: 15/10/2023**
 
 #### **Actividades realizadas :**
-1. Se continúa con la documentación de la propuesta de diseño, de manera individual. 
+1. Se corriguen los diagramas para que sean mas comprensibles. 
 #### **Pendientes:**
 1.  Llamar a reunión grupal para unir avances y trabajar en en conjutno en los puntos faltantes. 
 
@@ -42,14 +44,14 @@ ________________________________________________________________________________
 2. Se unen los puntos que cada uno desarrolló.
 3. Se trabaja en conjunto los puntos faltantes.
 #### **Pendientes:**
-1.  Queda pendiente termnar los puntos en conjunto.
+1.  Queda pendiente terminar los puntos en conjunto.
 
 _____________________________________________________________________________________________________________________
 
 ### **Día 5: 22/10/2023**
 
 #### **Actividades realizadas :**
-1. Se continúatrabajando de manera  grupal en el reporte de la propuesta de diseño.
+1. Se trabajan de manera  grupal en el reporte de la propuesta de diseño.
 #### **Pendientes:**
 1.  Queda pendiente revisar el documento y revisar el formato. 
 
@@ -76,44 +78,43 @@ ________________________________________________________________________________
 
 _____________________________________________________________________________________________________________________
 
-### **Día 8: 30/10/2023**
+### **Día 8: 1/10/2023**
 
 #### **Actividades realizadas :**
 1. Se logra consguir un modelo de detección de rostros y emociones.
-2. Se intenta crear un script en python que convierta el modelo a tflite.
+2. Se intenta crear un codigo en python que ejecuta la deteccion de emociones.
 #### **Pendientes:**
-1.  Convertir el modelo a tflite. 
+1.  Ver todas las dependencias necesarias para la creacion de la imagen
 
 _____________________________________________________________________________________________________________________
 
 ### **Día 9: 4/11/2023**
 
 #### **Actividades realizadas :**
-1. Se trabajó durante la semana individualmente en la creación de la imagen en Yocto.
-2. Cada integrante posse el modelo en tflite.
-4. Se intentan crear varias imágenes para correrlas e ir depurando errores. 
+1. Se trabajó en la creación de la imagen en Yocto.
 #### **Pendientes:**
-1.  En lo personal aún no me funciona la imagen, tengo problemas con la vesión de algunas layers.
-
+1.  El formarto de la imagen no funciona hay que cambiar de formato.
+  
 _____________________________________________________________________________________________________________________
 
 ### **Día 10: 5/11/2023**
 
 #### **Actividades realizadas :**
-1. Se continúa en la elaboración de una imagen funiconal. 
+1. Se encontro el formato rpi-sdimg
+2. Se trabajó en la creación de la imagen en Yocto con una imagen minima.
+3. Se probo la imagen en la rapberry
 #### **Pendientes:**
-1.  Obtener una imagen funcional del sistema. 
-
+1. La imagen muestra solo la conslola y no el escritorio xfce
 _____________________________________________________________________________________________________________________
 
 ### **Día 11: 6/11/2023**
 
 #### **Actividades realizadas :**
-1. El compañero Emmanuel logra sintetizar una imgen con éxito.
-2. Se hace una reunión grupal y se discuten puntos a resolver.
+1. Se trabajó en la creación de la imagen en Yocto utilizando una imagen base.
+2. Se probo la imagen en la rapberry
+4. Funciono el escritorio xfce, el gestor de ventanas x11 y la camara. 
 #### **Pendientes:**
-1.  Interfaz gráfica del sistema. 
-
+1.  interfaz grafica del sistema.
 _____________________________________________________________________________________________________________________
 
 
