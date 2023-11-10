@@ -293,8 +293,8 @@ ________________________________________________________________________________
 
 #### **Actividades realizadas :**
 1. Se hace la primera reunión del equipo.
-2. Se reparten los roles, a mi persona le corresponde ser director de proyecto e investigador.
-3. Se identifican y se asignan las primeras tareas, a mi persona le corresponde el punto 5 de la propuesta de diseño.
+2. Se reparten los roles, a mi persona le corresponde ser lider tecnico e investigador.
+3. Se identifican y se asignan las primeras tareas, a mi persona le corresponde el punto 2, 6 y 9 de la propuesta de diseño.
 #### **Pendientes:**
 1.  Agendar otra reunión en los días próximos para evanzar más. 
 _____________________________________________________________________________________________________________________
@@ -302,7 +302,7 @@ ________________________________________________________________________________
 ### **Día 2: 14/10/2023**
 
 #### **Actividades realizadas :**
-1. Se trabaja individualmente en los puntos que me tocó.
+1. Se busca referencias para la justificacion del proyecto
 #### **Pendientes:**
 1.  Llamar a reunión grupal para unir avances y trabajar en en conjutno en los puntos faltantes. 
 
@@ -311,7 +311,8 @@ ________________________________________________________________________________
 ### **Día 3: 15/10/2023**
 
 #### **Actividades realizadas :**
-1. Se continúa con la documentación de la propuesta de diseño, de manera individual. 
+1. Se continua la busqueda de referencias para la justificacion.
+2. Se empieza a definir la arquitectura del sistema
 #### **Pendientes:**
 1.  Llamar a reunión grupal para unir avances y trabajar en en conjutno en los puntos faltantes. 
 
@@ -324,14 +325,14 @@ ________________________________________________________________________________
 2. Se unen los puntos que cada uno desarrolló.
 3. Se trabaja en conjunto los puntos faltantes.
 #### **Pendientes:**
-1.  Queda pendiente termnar los puntos en conjunto.
+1.  Queda pendiente terminar los puntos en conjunto.
 
 _____________________________________________________________________________________________________________________
 
 ### **Día 5: 22/10/2023**
 
 #### **Actividades realizadas :**
-1. Se continúatrabajando de manera  grupal en el reporte de la propuesta de diseño.
+1. Se continúa trabajando de manera grupal en el reporte de la propuesta de diseño.
 #### **Pendientes:**
 1.  Queda pendiente revisar el documento y revisar el formato. 
 
@@ -372,19 +373,19 @@ ________________________________________________________________________________
 
 #### **Actividades realizadas :**
 1. Se trabajó durante la semana individualmente en la creación de la imagen en Yocto.
-2. Cada integrante posse el modelo en tflite.
-4. Se intentan crear varias imágenes para correrlas e ir depurando errores. 
+2. Me enfoco en crear una imagen que pueda ser reconocida por la Raspberry Pi 4
 #### **Pendientes:**
-1.  En lo personal aún no me funciona la imagen, tengo problemas con la vesión de algunas layers.
+1.  Hay problemas de booteo, investigar herramienta Raspberry Imager para la construccion del OS con la imagen de yocto
 
 _____________________________________________________________________________________________________________________
 
 ### **Día 10: 5/11/2023**
 
 #### **Actividades realizadas :**
-1. Se continúa en la elaboración de una imagen funiconal. 
+1. Con Raspberry Pi Imager se crea una imagen que es reconocida por la Raspberry Pi 4
+2. Se configura la imagen para que se pueda realizar una conexion SSH.
 #### **Pendientes:**
-1.  Obtener una imagen funcional del sistema. 
+1.  Obtener una imagen funcional del sistema completo. 
 
 _____________________________________________________________________________________________________________________
 
@@ -394,7 +395,7 @@ ________________________________________________________________________________
 1. El compañero Emmanuel logra sintetizar una imgen con éxito.
 2. Se hace una reunión grupal y se discuten puntos a resolver.
 #### **Pendientes:**
-1.  Interfaz gráfica del sistema. 
+1.  Interfaz gráfica del sistema y conexion SSH. 
 
 _____________________________________________________________________________________________________________________
 
@@ -403,7 +404,7 @@ ________________________________________________________________________________
 
 #### **Actividades realizadas :**
 1. Se tienen problemas con la conexión SSH.
-2. Trabajo individualmete en la creación de una alternativa para la interfaz gráfica.
+2. Trabajo con el compañero Emanuel para solucionar los problemas de conexion.
 #### **Pendientes:**
 1.  Integrar el sistema con la interfaz y probar su funcionalidada completa.
 
