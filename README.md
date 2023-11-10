@@ -147,7 +147,7 @@ ________________________________________________________________________________
 ### **Día 13: 9/11/2023**
 
 #### **Actividades realizadas :**
-1. Se logra porbar la funcionalidad completa del sistema.
+1. Se logra probar la funcionalidad completa del sistema.
 2. Se hace una reunión grupal para documentar el proyecto.
 #### **Pendientes:**
 1.  Entrega del proyecto el día 10/11/23. 
